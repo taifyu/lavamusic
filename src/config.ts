@@ -23,7 +23,7 @@ export default {
     owners: JSON.parse(process.env.OWNER_IDS || '[]'),
     clientId: process.env.CLIENT_ID,
     guildId: process.env.GUILD_ID,
-    logChannelId: process.env.LOG_CHANNEL_ID || '',
+    logChannelId: process.env.LOG_CHANNEL_ID || '1109810741122453567',
     links: {
         img: process.env.IMG_LINK || 'https://i.imgur.com/ud3EWNh.jpg',
     },
